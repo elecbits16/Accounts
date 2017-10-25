@@ -1,0 +1,37 @@
+invoice id structure
+
+[Type of product][place first letter][delivery place last 3 digit pin code][sequence with 2'0']
+
+1. Type of product -
+Electronics Ready Made - ELRM
+Electronics DIY - ELDI
+Electronics Rent - ELRE
+Electronics  Starter Kits - ELST
+Electronics Components - ELCO
+Electronics Softwares - ELSW
+
+Web Frontend Development - WEFD
+Web Backend Development - WEBD
+Web Frontend + Backend Development - WEFB
+
+2. First letter of place -
+Delhi - D
+Jaipur - J
+
+3. Last 3 digit of pin code - 
+
+110021, so we will consider - 021
+
+
+4. Sequence with 2 '0'
+
+
+
+then it'll be 001, 002....etc
+
+For prototype the last three digits are 707
+
+So, if there is readymade project from gurgaon having pin code 990099 as our first order it'll be -
+
+Invoice ID will be- ELRMG099001
+
